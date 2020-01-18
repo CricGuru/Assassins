@@ -26,4 +26,12 @@ class Player {
         return target;
     }
 
+    public void setName(String s) {
+        name = s;
+    }
+
+    public String getName() {
+        return name;
+    }
+
 }
